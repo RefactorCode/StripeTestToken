@@ -1,5 +1,5 @@
 {
-    "name": "jacobbennett/stripe-test-token",
+    "name": "refactor-code/stripe-test-token",
     "description": "Quickly create Stripe test tokens for successful and exceptional Stripe responses.",
     "homepage": "https://github.com/JacobBennett/StripeTestToken",
     "license": "MIT",
