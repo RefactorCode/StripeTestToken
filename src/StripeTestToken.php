@@ -29,6 +29,7 @@ class StripeTestToken
             'card' => [
                 'number'        => self::getCardNumber($type),
                 'exp_month'     => 1,
+                'currency'      => 'usd',
                 'exp_year'      => date("Y") + 1,
                 'address_line1' => '33 Zonda Lane',
                 'address_zip'   => '44883',
