@@ -45,6 +45,6 @@ class StripeCardNumber
             throw new BadMethodCallException("The provided card type {$method} is not defined.");
         }
 
-        return static::CARDS[$method];
+        return number_format(static::CARDS[$method],0,'.','');
     }
 }
