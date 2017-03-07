@@ -22,6 +22,11 @@ class StripeCardNumber
         'validDinersClub'        => 30569309025904,
         'validJCB'               => 3530111333300000,
 
+        //verification tasting
+        'verificationStage'     => 4000000000004202,
+        'chargeBlock'           => 4000000000004202,
+        'transferBlock'         => 4000000000004202,
+
         // exceptional responses
         'successDirectToBalance' => 4000000000000077,
         'addressZipFail'         => 4000000000000010,
